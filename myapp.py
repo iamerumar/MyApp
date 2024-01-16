@@ -14,7 +14,7 @@ server = app.server
 
 # Define the layout of the app
 app.layout = dbc.Container([  # Wrap your layout in a Container from dash-bootstrap-components
-    html.H1('Intrigued Cohort', style={'textAlign': 'center'}),
+    html.H1('Automatic Data Analysis', style={'textAlign': 'center'}),
     
     # Header
     dbc.Row([
